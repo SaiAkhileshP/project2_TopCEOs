@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Bebas+Neue&family=Righteous&family=Rum+Raisin&display=swap');
+
+body{
+   
+    background-color: black;
+    color: white;
+    
+    
+    
+}
+h1,h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.heading{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.container{
+    border: 2px solid aqua;
+    border-radius: 15px;
+    margin: 5% 10% ;
+    padding: 20px;
+}
+.container:hover{
+    box-shadow:5px 5px 10px aqua ;
+    transition: ease .5s;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.image{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    
+}
+.image img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid aqua;
+    border-radius: 0 0 50% 50%;
+    
+}
+p{
+    color: aqua;
+}
+.image img:hover{
+    scale: 1.1;
+   transition: ease 1s;
+   border-radius: 15px 15px 50% 50%;
+   
+}
+.discription{
+    margin: 0px 10%;
+    text-align: justify;
+    color: white;
+}
